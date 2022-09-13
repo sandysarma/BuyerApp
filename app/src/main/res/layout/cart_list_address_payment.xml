@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/size_20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/appColorGreen">
+
+        <ImageView
+            android:id="@+id/back_arrow1"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back_arrow"
+            app:tint="@color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addres"
+            android:textSize="@dimen/textSize_20sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"/>
+
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/size_10dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/fullnameEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_box"
+        android:hint="@string/full_name"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textSize="@dimen/textSize_15sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_box">
+
+        <TextView
+            android:id="@+id/txt_countrycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:text="+91"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize_15sp"
+            android:paddingLeft="10dp"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="30dp"
+            android:id="@+id/view"
+            android:layout_toRightOf="@+id/txt_countrycode"
+            android:background="@color/white"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginBottom="7dp"
+            />
+
+        <EditText
+            android:id="@+id/phoneEdt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view"
+            android:background="@android:color/transparent"
+            android:hint="@string/Phone_number"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="@dimen/textSize_15sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/cityEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_box"
+        android:hint="@string/city"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textSize="@dimen/textSize_15sp" />
+    <EditText
+        android:id="@+id/pinCodeEdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_box"
+        android:hint="@string/pinCode"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textSize="@dimen/textSize_15sp" />
+
+<TextView
+    android:id="@+id/continueTxtBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="@dimen/size_15dp"
+    android:layout_marginRight="@dimen/size_15dp"
+    android:text="@string/cash_on_delivery"
+    android:padding="10dp"
+    android:background="@drawable/button_background"
+    android:textColor="@color/white"
+    android:textSize="@dimen/textSize_20sp"
+    android:layout_gravity="center"
+    android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/size_15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="@dimen/size_15dp"
+        android:background="@drawable/button_background"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/online_payment"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_20sp" />
+
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

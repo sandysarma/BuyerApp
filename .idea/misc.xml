@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable-v21/blue_button_rounded_corner.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable-v21/ripple_menu.xml" value="0.2203125" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/add_cart_btn.xml" value="0.8912037037037037" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/arrow_forward.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/back_arrow.xml" value="0.1" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/back_border_gray.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/baseline_search.xml" value="0.5175" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/black_border.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/blue_button_rounded_corner.xml" value="0.5175" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/button_view_red.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/button_view_yello.xml" value="0.9178571428571428" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/buy_service.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/buynow_service.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/circleindicator_round.xml" value="0.9583333333333334" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/clearall_background.xml" value="0.2203125" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/cursor_color.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/edit_new_round.xml" value="0.33046875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/edit_round.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/edittext_box.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/location_on.xml" value="0.5175" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/my_location.xml" value="0.5175" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/product_clear.xml" value="1.0575" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/quantity_circle.xml" value="1.0575" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/ripple_menu.xml" value="0.2203125" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/rounded_view.xml" value="0.5229166666666667" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/transactiodtailsimg.xml" value="0.52875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/visibility_off.xml" value="0.1" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/visibility_on.xml" value="0.1" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/drawable/white_rounded_corner.xml" value="0.5175" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_cancel_order_details.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_cart_lis.xml" value="0.6305555555555555" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_cart_list.xml" value="0.6166666666666667" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_cart_list2.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_change_password.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_complete_order_details.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_edit_profile.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_explore_project.xml" value="0.6038961038961039" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_forgot.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_location.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_location_picker.xml" value="0.3838120104438642" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_login.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_login1.xml" value="0.6014234875444839" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_main.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_my_profile.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_my_service_deatails.xml" value="0.7025495750708215" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_order_history_details.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_otp_verification.xml" value="0.6366459627329193" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_payment_history.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_proceed_to_check.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_product_details.xml" value="0.9" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_product_list.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_profile.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_register.xml" value="0.65527950310559" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_reset_password.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_search_google_map.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_search_google_map2.xml" value="0.9074074074074074" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_service_details.xml" value="0.6865671641791045" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_service_list.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_service_request.xml" value="0.30625" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_sign_up.xml" value="0.6533333333333333" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_splash.xml" value="0.20416666666666666" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_transaction_details.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/activity_vehicle_details.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/adaptercompletedlist.xml" value="0.9" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/adapterordercancel.xml" value="1.0" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/add_cart_adapter.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/add_cart_layout.xml" value="0.8194444444444444" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/add_to_cart.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/baner_pager.xml" value="0.47875" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/blue_button_rounded_corner.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/cancel_order_layout.xml" value="0.5652173913043478" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/cart_list_adapter.xml" value="0.9" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/cart_list_address_payment.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/check_list_adapter.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/clear_all_cartlist_item.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/custom_reason.xml" value="0.18" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/explore_project_adapter.xml" value="0.49122807017543857" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_cancel_list.xml" value="0.9225" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_common.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_contact_us.xml" value="0.552901023890785" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_dashboard.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_get_quote.xml" value="0.6416938110749185" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_my_service.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_my_transaction.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_notification.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_order_history.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_order_list.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/fragment_setting.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/ic_arrow_back_black.xml" value="0.9225" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/ic_clear_black_24dp.xml" value="0.8865740740740741" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/ic_mic_black_24dp.xml" value="0.9225" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/info_window_layout.xml" value="0.8865740740740741" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/item_location_picker.xml" value="0.8865740740740741" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/menu_layout.xml" value="0.9119047619047619" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/myservice_adapter.xml" value="0.67" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/notification_adapter.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/orderlist_frament.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/payment_mode_layout.xml" value="0.75" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/place_list.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/popup_loading.xml" value="0.8865740740740741" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/product_adapter.xml" value="0.6577380952380952" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/product_list_adapter.xml" value="0.5" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/service_adapter.xml" value="1.0" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/service_list_adapter.xml" value="0.9" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/tab1.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/tab2.xml" value="0.9575" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/tab3.xml" value="0.49" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/transaction_layout.xml" value="0.9" />
+        <entry key="..\:/Project/BuyerApp_25feb/BuyerApp/app/src/main/res/layout/vehicle_adapter.xml" value="0.75" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

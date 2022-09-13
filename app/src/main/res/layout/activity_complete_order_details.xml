@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.CompleteOrderDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/constrain_main"
+        >
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main_title_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/appColorGreen"
+            android:gravity="center_vertical"
+            android:padding="2dp"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/relative_back_product_detail"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+
+                <ImageView
+                    android:id="@+id/image_payment_btn"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:src="@drawable/back_icon_white" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Product Detail"
+                android:textColor="@color/white_color"
+                android:textSize="@dimen/textSize_18sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/back_border_gray"
+            android:layout_marginTop="10dp"
+            android:id="@+id/constrain_order"
+            app:layout_constraintTop_toBottomOf="@+id/main_title_layout"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_detail_order"
+                android:text="Order Date  : "
+                android:textColor="@color/black"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@+id/txt_detail_order"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="2021_10_20 )2:24:15"
+                android:layout_marginLeft="5dp"
+                android:id="@+id/detail_order_date"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order No  : "
+                app:layout_constraintTop_toBottomOf="@+id/txt_detail_order"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:id="@+id/detail_orderno"
+                app:layout_goneMarginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/detal_order"
+                app:layout_constraintStart_toEndOf="@+id/detail_orderno"
+                app:layout_constraintTop_toBottomOf="@+id/detail_order_date"
+                android:text="6579645436788"
+                android:layout_marginTop="10dp"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_order"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="@drawable/back_border_gray"
+            android:layout_marginTop="8dp"
+            android:id="@+id/constrain_img"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:id="@+id/imagePurchase"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:siBorderColor="@color/white_color"
+                app:siBorderWidth="1dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:scaleType="fitXY"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@+id/imagePurchase"
+                android:layout_marginTop="35dp"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="Funko Pop Star Wars Jyn Erso"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/product_name_detail"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/product_name_detail"
+                android:text="@string/Project_Drice"
+                app:layout_constraintStart_toEndOf="@+id/imagePurchase"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/detail_productprice"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@+id/detail_productprice"
+                android:text="$12.6"
+                app:layout_constraintTop_toBottomOf="@+id/product_name_detail"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/light_green"
+                android:id="@+id/prod_price_det"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/detail_productprice"
+                app:layout_constraintStart_toEndOf="@+id/imagePurchase"
+                android:layout_marginLeft="10dp"
+                android:text="Quantity"
+                android:layout_marginTop="5dp"
+                android:id="@+id/return_reason"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@+id/return_reason"
+                android:id="@+id/return_reason_right"
+                app:layout_constraintTop_toBottomOf="@+id/prod_price_det"
+                android:text="return"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/light_green"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_img"
+            android:background="@drawable/back_border_gray"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/constrain_shipping_detail"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:paddingBottom="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="14dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txt_shipping_detail"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_name_detail"
+                android:text="Aks"
+                app:layout_constraintTop_toBottomOf="@+id/txt_shipping_detail"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@+id/txt_name_detail"
+                android:text="Mobile Number :"
+                android:id="@+id/txt_phoneno"
+                android:layout_marginTop="5dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phnno_right"
+                android:text="9992101958"
+                app:layout_constraintStart_toEndOf="@+id/txt_phoneno"
+                app:layout_constraintTop_toBottomOf="@+id/txt_name_detail"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/address_detail"
+                app:layout_constraintTop_toBottomOf="@+id/phnno_right"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="noida sector 59"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pincode_left"
+                android:text="Pincode : "
+                app:layout_constraintTop_toBottomOf="@+id/address_detail"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pincode_right"
+                app:layout_constraintStart_toEndOf="@+id/pincode_left"
+                app:layout_constraintTop_toBottomOf="@+id/address_detail"
+                android:layout_marginLeft="5dp"
+                android:text="126102"
+                android:layout_marginTop="5dp"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_border_gray"
+            app:layout_constraintTop_toBottomOf="@+id/constrain_shipping_detail"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_subtotal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                android:text="Sub Total"
+                app:layout_constraintTop_toTopOf="parent"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:text="$12.6"
+                android:id="@+id/subtotal_right"
+
+                />
+
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/light_black"
+                app:layout_constraintTop_toBottomOf="@+id/txt_subtotal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:id="@+id/view"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view"
+                android:text="Total Amount"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/total_amount_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="$12.6"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

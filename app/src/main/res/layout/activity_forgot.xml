@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLogin"
+    tools:context=".Forget.ForgotPasswordActivity">
+
+
+
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/view_flip">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/back_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <LinearLayout
+                        android:id="@+id/back_arrow_button"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/back_arrow"
+                            android:backgroundTint="@color/black" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        android:text="@string/forgot_password"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSize_20sp" />
+
+                </RelativeLayout>
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:id="@+id/image"
+                            android:layout_width="140dp"
+                            android:layout_height="50dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/phonelTxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/projectImageLayout"
+                            android:text="@string/Phone_number"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="30dp"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textSize_18sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="20dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/rounded_view">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginRight="5dp"
+                                android:gravity="center"
+                                android:orientation="vertical">
+
+                                <RadioGroup
+                                    android:id="@+id/radioGroup"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+                                    android:weightSum="2">
+
+                                    <RadioButton
+                                        android:id="@+id/rdo_individual"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="1"
+                                        android:buttonTint="@color/white"
+                                        android:checked="true"
+                                        android:text="@string/individual_farmers"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/textSize_15sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/rdo_group"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="1"
+                                        android:buttonTint="@color/white"
+                                        android:text="@string/group_farmers"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/textSize_15sp" />
+
+                                    <RadioButton
+                                        android:id="@+id/rdo_institution"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_weight="1"
+                                        android:visibility="gone"
+                                        android:buttonTint="@color/white"
+                                        android:text="@string/institution_farmers"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/textSize_15sp" />
+
+                                </RadioGroup>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/individualFramerLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/phonelTxt"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:background="@drawable/edittext_box">
+
+                                    <TextView
+                                        android:id="@+id/txt_countrycode"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_centerInParent="true"
+                                        android:text="+91"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/textSize_15sp"
+                                        android:paddingLeft="10dp"
+                                        />
+
+                                    <View
+                                        android:layout_width="1dp"
+                                        android:layout_height="30dp"
+                                        android:id="@+id/view"
+                                        android:layout_toRightOf="@+id/txt_countrycode"
+                                        android:background="@color/white"
+                                        android:layout_margin="7dp"
+                                        />
+
+
+                                    <EditText
+                                        android:id="@+id/forgtPhonetxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_alignParentRight="true"
+                                        android:layout_alignParentBottom="true"
+                                        android:layout_toRightOf="@+id/view"
+                                        android:background="@android:color/transparent"
+                                        android:hint="@string/Phone_number"
+                                        android:inputType="phone"
+                                        android:maxLength="10"
+                                        android:padding="12dp"
+                                        android:textColor="@color/white"
+                                        android:textColorHint="@color/gray_light"
+                                        android:textCursorDrawable="@drawable/cursor_color" />
+
+                                </RelativeLayout>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/institutionFramerLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/phonelTxt"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:background="@drawable/edittext_box">
+
+                                    <EditText
+                                        android:id="@+id/institutionforgtPhonetxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@android:color/transparent"
+                                        android:hint="@string/Phone_number"
+                                        android:inputType="phone"
+                                        android:padding="12dp"
+                                        android:textColor="@color/white"
+
+                                        android:textColorHint="@color/white"
+                                        android:textCursorDrawable="@drawable/cursor_color"
+                                        />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/groupFramerLayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone"
+                                android:orientation="vertical">
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_below="@+id/phonelTxt"
+                                    android:layout_marginTop="15dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:background="@drawable/edittext_box">
+
+                                    <TextView
+                                        android:id="@+id/txt_countryforgetgroup"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentLeft="true"
+                                        android:layout_centerInParent="true"
+                                        android:text="+91"
+                                        android:textColor="@color/white"
+                                        android:textSize="@dimen/textSize_15sp"
+                                        android:paddingLeft="10dp"
+                                        />
+
+                                    <View
+                                        android:layout_width="1dp"
+                                        android:layout_height="30dp"
+                                        android:id="@+id/viewcountrygroup"
+                                        android:layout_toRightOf="@+id/txt_countryforgetgroup"
+                                        android:background="@color/white"
+                                        android:layout_margin="7dp"
+                                        />
+                                    <EditText
+                                        android:id="@+id/groupforgtPhonetxt"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:background="@android:color/transparent"
+                                        android:hint="@string/Phone_number"
+                                        android:inputType="number"
+                                        android:padding="12dp"
+                                        android:maxLength="10"
+                                        android:textColor="@color/white"
+                                        android:textColorHint="@color/gray_light"
+                                        android:textCursorDrawable="@drawable/cursor_color"
+                                        android:layout_toRightOf="@+id/viewcountrygroup"
+                                        />
+                                </RelativeLayout>
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/forget_button_relative_layout"
+                                android:layout_width="match_parent"
+                                android:layout_height="45dp"
+                                android:layout_below="@+id/emailLayout"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/button_background">
+
+                                <TextView
+                                    android:id="@+id/forgetTxt"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_centerInParent="true"
+                                    android:gravity="center"
+                                    android:text="@string/forgot_password"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/textSize_20sp"
+                                    tools:ignore="RelativeOverlap" />
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </LinearLayout>
+
+            <include layout="@layout/activity_otp_verification"></include>
+
+        </ViewFlipper>
+
+
+</RelativeLayout>

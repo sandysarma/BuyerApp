@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/appColorGreen">
+
+        <ImageView
+            android:id="@+id/back_arrow_mode"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/back_arrow"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/payment_mode"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/textSize_21sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+<RadioGroup
+    android:id="@+id/radio_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/codbtntxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Case On Delivery"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:checked="true"
+        android:textSize="18dp"/>
+
+
+    <RadioButton
+        android:id="@+id/orangebtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Orange Money"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/appColorGreen"
+        android:buttonTint="@color/appColorGreen"
+        android:textSize="18sp">
+    </RadioButton>
+
+
+
+    <RadioButton
+        android:id="@+id/cashOnDelivryrdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cash on Delivery"
+        android:visibility="gone"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/appColorGreen"
+        android:buttonTint="@color/appColorGreen"
+        android:textSize="18sp">
+    </RadioButton>
+    
+</RadioGroup>
+
+    <TextView
+        android:id="@+id/makepaymentbtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/make_payment"
+        android:background="@drawable/buynowbtn"
+        android:textSize="@dimen/textSize_18sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/size_20dp"
+        android:layout_marginLeft="@dimen/size_15dp"
+        android:layout_marginRight="@dimen/size_15dp"
+        android:layout_marginTop="@dimen/size_20dp"/>
+
+
+</LinearLayout>

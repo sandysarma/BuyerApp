@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.OtpVerificationActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/logo"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="40dp"
+            android:alpha="0.8"
+            android:background="@color/white"
+            android:elevation="10dp"
+            app:cardCornerRadius="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/rounded_view">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="@string/verification_code"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="Smart Farm"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="30dp"
+                        android:text="@string/Veriydesc"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        tools:ignore="RtlCompat" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/codelayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:weightSum="6">
+
+                            <EditText
+                                android:id="@+id/numone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_box"
+                                android:ems="1"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="35sp"
+                                tools:ignore="RtlCompat" />
+
+                            <EditText
+                                android:id="@+id/numtwo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_box"
+                                android:ems="1"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="35sp"
+                                tools:ignore="RtlCompat" />
+
+                            <EditText
+                                android:id="@+id/numthree"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_box"
+                                android:ems="1"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="35sp"
+                                tools:ignore="RtlCompat" />
+
+                            <EditText
+                                android:id="@+id/numfour"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_box"
+                                android:ems="1"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="35sp"
+                                tools:ignore="RtlCompat" />
+
+                            <EditText
+                                android:id="@+id/numfive"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_box"
+                                android:ems="1"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"
+                                android:textSize="35sp"
+                                tools:ignore="RtlCompat" />
+
+                            <EditText
+                                android:id="@+id/numsix"
+                                android:layout_width="wrap_content"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:background="@drawable/edittext_box"
+                                android:ems="1"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/black"
+                                android:textSize="35sp" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/Verify_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/buynowbtn"
+                        android:gravity="center"
+                        android:text="@string/verify"
+                        android:textColor="@color/back_color"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+
+</FrameLayout>
