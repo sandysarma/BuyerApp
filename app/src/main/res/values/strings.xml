@@ -47,7 +47,7 @@
     <string name="individual_farmers">Individual Farmers</string>
     <string name="group_farmers">Group Farmers</string>
     <string name="pls_enter_name_of_farmer">Please enter former name</string>
-        <string name="phone_no_minimum_length_should">Please enter valid mobile no</string>
+    <string name="phone_no_minimum_length_should">Please enter valid mobile no</string>
     <string name="pls_enter_district">Please enter district</string>
     <string name="pls_enter_chiefdom">Please enter chiefdom</string>
     <string name="pls_enter_section">Please enter section</string>

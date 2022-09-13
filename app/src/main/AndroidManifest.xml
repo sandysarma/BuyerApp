@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.buyer.buyerApp">
 
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -31,6 +30,9 @@
         tools:ignore="MissingClass"
         tools:targetApi="m">
         <activity
+            android:name=".sam.tempActivity"
+            android:exported="true" />
+        <activity
             android:name=".Activity.ProfileActivity"
             android:exported="true" />
         <activity
@@ -43,7 +45,6 @@
         <activity
             android:name=".Activity.Login1Activity"
             android:exported="true" />
-
         <activity
             android:name=".Activity.CompleteOrderDetails"
             android:exported="true" />
